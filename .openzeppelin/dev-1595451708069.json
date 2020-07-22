@@ -1,0 +1,24 @@
+{
+  "contracts": {},
+  "solidityLibs": {},
+  "proxies": {
+    "dh-govenator/GovernanceDeployer": [
+      {
+        "address": "0xb3C8F6273010773834D42584fd273Cc4E528Cb8E",
+        "kind": "NonProxy",
+        "bytecodeHash": "72af1f3d322d476c16434945ae09bdc19150f65241bbab78338d72a9e8b2d0c4"
+      },
+      {
+        "address": "0x1Dc4d474306055aa3E5d4d42a197da0D22228635",
+        "kind": "NonProxy",
+        "bytecodeHash": "9640a2d3ee3a1df486f82680be476e125534e76fd81e50dc622e2986f8ffb658"
+      },
+      {
+        "address": "0xC3ED88c5bb21cd6c8cc97eb02DEad2F34b84AAfA",
+        "kind": "NonProxy",
+        "bytecodeHash": "5ef5484076fe078546481df9fe6d39421df8e4ac97ed37f235dc89adbafc9263"
+      }
+    ]
+  },
+  "manifestVersion": "2.2"
+}
