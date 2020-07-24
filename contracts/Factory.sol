@@ -16,6 +16,7 @@ contract GovernanceDeployer {
     VoteTokenDeployer public voteTokenDeployer;
     GovernorDeployer public governorDeployer;
 
+
     bool initialized = false;
 
     event governanceContractCreated(address contractAddress);

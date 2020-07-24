@@ -9,6 +9,7 @@ import { NavBar } from './components/navBar/NavBar'
 import { Footer } from './components/footer/Footer'
 import { UseOnboard } from './components/ethereum/onboard/UseOnboard'
 import { About } from './components/public/about/About'
+import CreateProject from './components/project/createProject/CreateProject'
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -29,6 +30,10 @@ function App() {
 
           <Route path="/projects">
             <div> Multple Projects </div>
+          </Route>
+
+          <Route path="/create">
+            <CreateProject />
           </Route>
 
 
